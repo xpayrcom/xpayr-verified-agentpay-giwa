@@ -1,0 +1,149 @@
+{
+  "authentication": {
+    "eip712": {
+      "domain": {
+        "chainId": 91342,
+        "name": "XPAYR GIWA AgentPay Policy",
+        "verifyingContract": "0x7b0630cbb92be8e11512cb331b8d1aef94ceec53",
+        "version": "1"
+      },
+      "message": {
+        "artifactDigest": "0x0a4214aaf8bf094391e43086bacbca1a9ec0a4ddab3c707fdefa22f6707a944c",
+        "authority": "0xb209dd7408ffd12a8575a429be946ded5fbad732",
+        "bindingDigest": "0x7aae6ec3f21e6cd72d2c3179e2aad7721769f8964af3bddc3a3f72b00b653f9d",
+        "decisionHash": "0xf4b8d64183df4317cd6f5f127a573888f289ee94d667a219ac78948675b33f52",
+        "deliverableHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "evaluator": "0x0000000000000000000000000000000000000000",
+        "expiresAt": 1784512558,
+        "intentIdHash": "0xd46588b94e175a8db18d29dbea68a521d1838bb076aeb489507cd2f9324af72a",
+        "jobId": "0x5f7f7075eac19ed40139af4de22d905d34f67303a8d7564599ea86c480dcbaf5",
+        "jobNonce": "0x6a3f05fad443c3859f6fbacde70253a502c16ed7756121eed27a1be190836db3",
+        "outcomeHash": "0x0ae202c5d1ff9dcd4329d24acbf3bddff6279ad182d19d899440adb36d927795",
+        "payer": "0xb209dd7408ffd12a8575a429be946ded5fbad732",
+        "provider": "0x065b8ebec5a59ef6324138ecf21d630ae4137152",
+        "recordIdHash": "0xaacba5f40e1f82f94624f238e7708ddfd2f12e6c24c4d70901ddf078d01438db",
+        "rulesetHash": "0xe51b6b929d488b9a30b65d766b5d12cfa00b1ab6cb871ce4b30884dd4ba76fb2",
+        "valueWei": "1000000000000"
+      },
+      "primary_type": "XPayrPolicyDecision",
+      "producer_address": "0xb209dd7408ffd12a8575a429be946ded5fbad732",
+      "signature": "0x5a70597136a37e7732453fa4157b3b3dfe8e4b8c92d1d7ac18601ce101da60a3045edb78e7d0f54b65986154b709f23f2346b3d0643a6b7fef43c2bd20fcb4e61b",
+      "typed_data_digest": "0xf71a8985373d309c78aa8c2231cb0a6423c564b93b5f99f0952635e1e02ecaa0",
+      "types": {
+        "XPayrPolicyDecision": [
+          {
+            "name": "recordIdHash",
+            "type": "bytes32"
+          },
+          {
+            "name": "intentIdHash",
+            "type": "bytes32"
+          },
+          {
+            "name": "artifactDigest",
+            "type": "bytes32"
+          },
+          {
+            "name": "decisionHash",
+            "type": "bytes32"
+          },
+          {
+            "name": "bindingDigest",
+            "type": "bytes32"
+          },
+          {
+            "name": "rulesetHash",
+            "type": "bytes32"
+          },
+          {
+            "name": "jobId",
+            "type": "bytes32"
+          },
+          {
+            "name": "jobNonce",
+            "type": "bytes32"
+          },
+          {
+            "name": "payer",
+            "type": "address"
+          },
+          {
+            "name": "provider",
+            "type": "address"
+          },
+          {
+            "name": "evaluator",
+            "type": "address"
+          },
+          {
+            "name": "valueWei",
+            "type": "uint256"
+          },
+          {
+            "name": "expiresAt",
+            "type": "uint64"
+          },
+          {
+            "name": "outcomeHash",
+            "type": "bytes32"
+          },
+          {
+            "name": "deliverableHash",
+            "type": "bytes32"
+          },
+          {
+            "name": "authority",
+            "type": "address"
+          }
+        ]
+      }
+    },
+    "producer_address": "0xb209dd7408ffd12a8575a429be946ded5fbad732",
+    "scheme": "eip712"
+  },
+  "authority_address": "0xb209dd7408ffd12a8575a429be946ded5fbad732",
+  "binding_digest": "0x7aae6ec3f21e6cd72d2c3179e2aad7721769f8964af3bddc3a3f72b00b653f9d",
+  "chain_id": 91342,
+  "created_at": "2026-07-19T23:55:59.333Z",
+  "decision": "ALLOW",
+  "decision_hash": "0xf4b8d64183df4317cd6f5f127a573888f289ee94d667a219ac78948675b33f52",
+  "integrity": {
+    "algorithm": "sha256",
+    "canonicalization": "xpayr-canonical-json-v1",
+    "digest": "0x0a4214aaf8bf094391e43086bacbca1a9ec0a4ddab3c707fdefa22f6707a944c",
+    "digest_scope": "canonical_payload_without_integrity_and_authentication"
+  },
+  "intent_id": "intent-refund-1784505313307",
+  "job": {
+    "deliverable_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "escrow_contract": "0x7b0630cbb92be8e11512cb331b8d1aef94ceec53",
+    "evaluator": "0x0000000000000000000000000000000000000000",
+    "expires_at": 1784512558,
+    "job_id": "0x5f7f7075eac19ed40139af4de22d905d34f67303a8d7564599ea86c480dcbaf5",
+    "job_nonce": "0x6a3f05fad443c3859f6fbacde70253a502c16ed7756121eed27a1be190836db3",
+    "outcome": "REFUNDED",
+    "payer": "0xb209dd7408ffd12a8575a429be946ded5fbad732",
+    "provider": "0x065b8ebec5a59ef6324138ecf21d630ae4137152",
+    "value_wei": "1000000000000"
+  },
+  "network_key": "giwa-testnet",
+  "record_id": "policy-record-refund-1784505313307",
+  "ruleset": {
+    "asset_mode": "native_giwa_sepolia_test_eth_only",
+    "autonomous_release_allowed": false,
+    "hash": "0xe51b6b929d488b9a30b65d766b5d12cfa00b1ab6cb871ce4b30884dd4ba76fb2",
+    "max_expiry_seconds": 7200,
+    "max_job_value_wei": "10000000000000",
+    "required_verified_roles": [
+      "payer",
+      "provider"
+    ],
+    "schema": "xpayr.giwa.agentpay.policy-ruleset.v1",
+    "version": "1"
+  },
+  "schema": "xpayr.giwa.agentpay.policy-evidence.v1",
+  "validity": {
+    "valid_from": 1784505358,
+    "valid_until": 1784512558
+  }
+}

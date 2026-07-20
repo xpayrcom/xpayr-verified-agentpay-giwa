@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="XPAYR Verified AgentPay — policy-controlled AI agent escrow for GIWA Sepolia.">
+  <title>XPAYR Verified AgentPay · GIWA</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#workspace">Skip to workspace</a>
+  <div class="shell">
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="XPAYR Verified AgentPay home">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span><strong>XPAYR</strong><small>Verified AgentPay</small></span>
+      </a>
+      <div class="topbar-actions">
+        <span class="mode-badge is-checking" id="runtime-mode">Runtime · checking</span>
+        <span class="network-pill" id="network-pill"><i aria-hidden="true"></i> GIWA Sepolia · 91342</span>
+        <button class="button button-ink button-compact" id="connect-wallet" type="button">Connect test wallet</button>
+      </div>
+    </header>
+
+    <main id="workspace">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">A verified settlement room for autonomous work</p>
+          <h1 id="hero-title">An agent can ask.<br><em>Policy decides.</em><br>Humans release.</h1>
+          <p class="hero-lede">Create an AI job, verify its participants through Dojang, hold test ETH in non-custodial escrow, and seal every decision into portable evidence.</p>
+        </div>
+        <aside class="truth-card" aria-label="MVP truth boundary">
+          <div class="truth-card-head">
+            <span class="seal">TEST</span>
+            <p>Proof boundary</p>
+          </div>
+          <dl>
+            <div><dt>Asset</dt><dd>Test ETH only</dd></div>
+            <div><dt>Network</dt><dd>GIWA Sepolia</dd></div>
+            <div><dt>Release</dt><dd>Human approval</dd></div>
+            <div><dt>Custody</dt><dd>Escrow contract</dd></div>
+          </dl>
+          <p class="truth-note">No mainnet, real customer funds, stablecoin, KYC decision, or autonomous release claim.</p>
+        </aside>
+      </section>
+
+      <section class="proof-cockpit" aria-labelledby="proof-cockpit-title">
+        <div class="proof-cockpit-head">
+          <div>
+            <p class="panel-kicker">Reviewer proof desk</p>
+            <h2 id="proof-cockpit-title">Two lanes. One canonical finish.</h2>
+          </div>
+          <p id="proof-mode-copy">Runtime truth is loading. Wallet execution remains locked.</p>
+        </div>
+        <div class="proof-lanes">
+          <article class="proof-lane wallet-lane" aria-labelledby="wallet-lane-title">
+            <div class="proof-lane-title">
+              <span>Wallet lane / user authority</span>
+              <i class="lane-light" id="wallet-light" aria-hidden="true"></i>
+            </div>
+            <h3 id="wallet-lane-title">No wallet session</h3>
+            <dl class="proof-facts">
+              <div><dt>Account</dt><dd id="wallet-address">Not connected</dd></div>
+              <div><dt>Chain</dt><dd id="wallet-chain">Not checked</dd></div>
+              <div><dt>Required role</dt><dd id="wallet-role">Select an intent</dd></div>
+              <div><dt>Job value cap</dt><dd id="wallet-limit">Runtime gate loading</dd></div>
+            </dl>
+            <p>XPAYR prepares a bounded request. The participant reviews it and confirms it in an EIP-1193 wallet.</p>
+          </article>
+          <article class="proof-lane canonical-lane" aria-labelledby="canonical-lane-title">
+            <div class="proof-lane-title">
+              <span>Evidence lane / read only</span>
+              <i class="lane-light" id="canonical-light" aria-hidden="true"></i>
+            </div>
+            <h3 id="canonical-lane-title">Canonical proof loading</h3>
+            <dl class="proof-facts">
+              <div><dt>Escrow</dt><dd id="proof-contract">Checking deployment</dd></div>
+              <div><dt>Dojang D1</dt><dd id="proof-dojang">Checking retained proof</dd></div>
+              <div><dt>Source</dt><dd id="proof-source">Checking explorer record</dd></div>
+            </dl>
+            <p>Retained evidence is separate from this process-memory intent workspace and remains reviewable without connecting a wallet.</p>
+          </article>
+        </div>
+        <ol class="proof-rail" id="proof-rail" aria-label="Transaction evidence progression">
+          <li data-proof-stage="prepared"><span>01</span><b>Bounded preview</b><small>No wallet prompt</small></li>
+          <li data-proof-stage="requested"><span>02</span><b>User confirmation</b><small>Wallet authority</small></li>
+          <li data-proof-stage="pending"><span>03</span><b>Flashblocks signal</b><small>Pending only</small></li>
+          <li data-proof-stage="canonical"><span>04</span><b>Canonical receipt</b><small>Completion authority</small></li>
+        </ol>
+      </section>
+
+      <section class="state-roof" aria-labelledby="state-title">
+        <div class="section-label">
+          <p id="state-title">Escrow state</p>
+          <span id="state-caption">Local intent workspace</span>
+        </div>
+        <ol class="tile-rail" id="state-rail">
+          <li class="is-active" data-state="CREATED"><span>Created</span></li>
+          <li data-state="FUNDED"><span>Funded</span></li>
+          <li data-state="SUBMITTED"><span>Submitted</span></li>
+          <li data-state="APPROVED"><span>Approved</span></li>
+          <li data-state="RELEASED"><span>Released</span></li>
+        </ol>
+      </section>
+
+      <section class="work-grid">
+        <article class="panel composer-panel">
+          <div class="panel-heading">
+            <div><span class="panel-kicker">Intent desk</span><h2>Create a guarded job</h2></div>
+            <span class="step-badge">01</span>
+          </div>
+          <form id="intent-form" novalidate>
+            <label class="field field-wide">
+              <span>Job</span>
+              <input id="job-title" name="title" type="text" maxlength="120" value="Translate and validate a Korean product catalog" required>
+            </label>
+            <div class="field-pair">
+              <label class="field">
+                <span>Payer wallet</span>
+                <input id="payer-address" name="payerAddress" inputmode="text" autocomplete="off" placeholder="0x…" required>
+              </label>
+              <label class="field">
+                <span>Provider wallet</span>
+                <input id="provider-address" name="providerAddress" inputmode="text" autocomplete="off" placeholder="0x…" required>
+              </label>
+            </div>
+            <label class="field field-wide">
+              <span>Evaluator wallet <small>optional</small></span>
+              <input id="evaluator-address" name="evaluatorAddress" inputmode="text" autocomplete="off" placeholder="0x…">
+            </label>
+            <div class="field-pair field-pair-single">
+              <label class="field">
+                <span>Escrow amount <small>authoritative server policy applies</small></span>
+                <span class="input-unit"><input id="amount-eth" name="amountEth" type="number" min="0.000001" max="0.000001" step="0.000001" value="0.000001" required><b>test ETH</b></span>
+              </label>
+            </div>
+            <div class="policy-switches">
+              <label class="check-row"><input id="require-verification" name="requireVerification" type="checkbox" checked disabled><span><b>Require Dojang verification</b><small>Mandatory: every party must match an allowlisted attester; TESTNET_FAUCET is test-only.</small></span></label>
+              <label class="check-row"><input id="require-approval" name="requireApproval" type="checkbox" checked disabled><span><b>Require human release</b><small>An AI evaluator cannot release funds alone.</small></span></label>
+            </div>
+            <div class="form-actions">
+              <button class="button button-primary" id="evaluate-intent" type="submit">Evaluate intent</button>
+              <button class="button button-ghost" id="load-demo" type="button">Load safe fixture</button>
+            </div>
+            <p class="form-message" id="form-message" role="status" aria-live="polite"></p>
+          </form>
+        </article>
+
+        <aside class="panel decision-panel" aria-labelledby="decision-title">
+          <div class="panel-heading">
+            <div><span class="panel-kicker">Policy gate</span><h2 id="decision-title">Decision</h2></div>
+            <span class="decision-orb is-idle" id="decision-orb" aria-label="No decision">—</span>
+          </div>
+          <div class="decision-empty" id="decision-empty">
+            <span class="fingerprint" aria-hidden="true"></span>
+            <p>Submit an intent to bind its amount, parties, network, and verification rule into one policy fingerprint.</p>
+          </div>
+          <div class="decision-result" id="decision-result" hidden>
+            <p class="decision-word" id="decision-word">HOLD</p>
+            <p class="decision-summary" id="decision-summary"></p>
+            <dl class="decision-facts">
+              <div><dt>Intent ID</dt><dd id="decision-id">—</dd></div>
+              <div><dt>Policy hash</dt><dd id="policy-hash">—</dd></div>
+              <div><dt>Dojang</dt><dd id="dojang-result">—</dd></div>
+              <div><dt>Next action</dt><dd id="next-action">—</dd></div>
+            </dl>
+            <div class="decision-actions">
+              <button class="button button-primary" id="approve-intent" type="button">Approve fixture hold</button>
+              <button class="button button-ghost" id="reject-intent" type="button">Reject fixture intent</button>
+              <button class="button button-ghost" id="download-evidence" type="button">Evidence JSON</button>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="chain-console" aria-labelledby="chain-title">
+        <div class="chain-console-head">
+          <div><p class="panel-kicker">Wallet execution room</p><h2 id="chain-title">Move the escrow on GIWA</h2></div>
+          <div class="deployment-truth"><span id="deployment-dot"></span><b id="deployment-label">Deployment not recorded</b></div>
+        </div>
+        <div class="chain-console-body">
+          <div class="chain-copy">
+            <p>Chain controls sign through the connected participant wallet. Live execution requires a direct policy ALLOW; fixture HOLD actions cannot authorize a wallet request. XPAYR prepares the binding, but never holds a key or broadcasts on the user’s behalf.</p>
+            <label class="field">
+              <span>Deliverable reference</span>
+              <input id="deliverable-reference" type="text" maxlength="240" value="ipfs://demo-deliverable-cid" aria-describedby="deliverable-help">
+              <small id="deliverable-help">Only its keccak256 hash is submitted onchain.</small>
+            </label>
+            <p class="chain-status" id="chain-status" role="status" aria-live="polite">A recorded GIWA Sepolia escrow deployment is required before wallet actions unlock.</p>
+            <aside class="transaction-review" id="transaction-review" aria-labelledby="transaction-review-title" hidden>
+              <div class="transaction-review-head">
+                <div><span>Bounded request</span><h3 id="transaction-review-title">Review before wallet</h3></div>
+                <span class="seal seal-small">PRE</span>
+              </div>
+              <dl class="transaction-review-facts">
+                <div><dt>Action</dt><dd id="preview-action">—</dd></div>
+                <div><dt>Contract</dt><dd id="preview-contract">—</dd></div>
+                <div><dt>Signer</dt><dd id="preview-signer">—</dd></div>
+                <div><dt>Method</dt><dd id="preview-method">—</dd></div>
+                <div><dt>Job ID</dt><dd id="preview-job">—</dd></div>
+                <div data-preview-term="provider" hidden><dt>Provider</dt><dd>—</dd></div>
+                <div data-preview-term="evaluator" hidden><dt>Evaluator</dt><dd>—</dd></div>
+                <div data-preview-term="expected" hidden><dt>Expected amount</dt><dd>—</dd></div>
+                <div data-preview-term="expiry" hidden><dt>Expiry</dt><dd>—</dd></div>
+                <div data-preview-term="policy" hidden><dt>Policy hash</dt><dd>—</dd></div>
+                <div data-preview-term="deliverable" hidden><dt>Deliverable hash</dt><dd>—</dd></div>
+                <div data-preview-term="payout" hidden><dt>Payout direction</dt><dd>—</dd></div>
+                <div><dt>Value</dt><dd id="preview-value">—</dd></div>
+                <div><dt>Gas limit</dt><dd id="preview-gas">—</dd></div>
+                <div><dt>Max fee / gas</dt><dd id="preview-fee">—</dd></div>
+                <div><dt>Worst-case request</dt><dd id="preview-total">—</dd></div>
+              </dl>
+              <div class="transaction-review-actions">
+                <button class="button button-primary" id="confirm-wallet-send" type="button">Send to wallet</button>
+                <button class="button button-ghost" id="cancel-wallet-send" type="button">Cancel</button>
+              </div>
+              <p>No transaction is sent until “Send to wallet” is pressed and the wallet confirms it.</p>
+            </aside>
+          </div>
+          <div class="chain-actions" aria-label="Escrow lifecycle actions">
+            <button class="chain-action" id="chain-create" type="button" disabled><span>01</span><b>Create job</b><small>Payer wallet</small></button>
+            <button class="chain-action" id="chain-fund" type="button" disabled><span>02</span><b>Fund escrow</b><small>Payer wallet</small></button>
+            <button class="chain-action" id="chain-submit" type="button" disabled><span>03</span><b>Submit work</b><small>Provider wallet</small></button>
+            <button class="chain-action" id="chain-approve" type="button" disabled><span>04</span><b>Approve work</b><small>Payer / evaluator</small></button>
+            <button class="chain-action chain-action-release" id="chain-release" type="button" disabled><span>05</span><b>Release payment</b><small>Canonical receipt</small></button>
+            <button class="chain-action" id="chain-dispute" type="button" disabled><span>↯</span><b>Open dispute</b><small>Participant wallet</small></button>
+            <button class="chain-action" id="chain-resolve-provider" type="button" disabled><span>✓</span><b>Resolve to provider</b><small>Evaluator / payer</small></button>
+            <button class="chain-action" id="chain-cancel" type="button" disabled><span>×</span><b>Cancel job</b><small>Payer before submit</small></button>
+            <button class="chain-action" id="chain-expire" type="button" disabled><span>⌛</span><b>Mark expired</b><small>After policy deadline</small></button>
+            <button class="chain-action" id="chain-refund" type="button" disabled><span>↩</span><b>Claim refund</b><small>Payer wallet</small></button>
+            <button class="chain-action" id="chain-timeout-refund" type="button" disabled><span>⏱</span><b>Timeout refund</b><small>Payer after 7 days</small></button>
+            <button class="chain-action" id="chain-retry-evidence" type="button" disabled><span>↻</span><b>Retry evidence</b><small>Canonical RPC only</small></button>
+            <button class="chain-action" id="chain-refresh" type="button" disabled><span>↻</span><b>Refresh state</b><small>Canonical RPC</small></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="retained-proof" aria-labelledby="retained-proof-title">
+        <div class="retained-proof-head">
+          <div><p class="panel-kicker">Retained proof index</p><h2 id="retained-proof-title">Checked-in GIWA Sepolia evidence</h2></div>
+          <p>Local digest check · links point to retained chain records</p>
+        </div>
+        <div class="retained-proof-grid" id="reviewer-proof-cards" aria-live="polite">
+          <article class="retained-proof-card is-loading"><span>D1</span><h3>Identity proof</h3><p>Loading the allowlisted reviewer record…</p></article>
+          <article class="retained-proof-card is-loading"><span>D2</span><h3>Deployment proof</h3><p>Loading canonical deployment evidence…</p></article>
+          <article class="retained-proof-card is-loading"><span>D3</span><h3>Lifecycle proof</h3><p>Loading release and refund receipts…</p></article>
+        </div>
+      </section>
+
+      <section class="ledger-section" aria-labelledby="ledger-title">
+        <div class="ledger-heading">
+          <div><p class="panel-kicker">Auditable trail</p><h2 id="ledger-title">Job ledger</h2></div>
+          <div class="legend"><span><i class="dot dot-flash"></i>Preconfirmed UX</span><span><i class="dot dot-final"></i>Canonical receipt</span></div>
+        </div>
+        <div class="ledger-table-wrap">
+          <table>
+            <thead><tr><th>Job</th><th>Policy</th><th>Identity</th><th>State</th><th>Evidence</th></tr></thead>
+            <tbody id="ledger-body">
+              <tr class="empty-row"><td colspan="5">No intents yet. Create one above to start the local proof trail.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="native-grid" aria-label="GIWA-native design">
+        <article><span>Dojang / 01</span><h3>Verified counterparties</h3><p>Read onchain attestations without placing identity data inside the evidence envelope.</p></article>
+        <article><span>Flashblocks / 02</span><h3>Fast, never final</h3><p>Show an early pending signal, then wait for the canonical receipt before calling work complete.</p></article>
+        <article><span>Evidence / 03</span><h3>Portable accountability</h3><p>Package parties, policy, receipt, and webhook outcome into deterministic JSON with an integrity checksum—not a producer signature.</p></article>
+      </section>
+    </main>
+
+    <footer>
+      <p><strong>XPAYR Verified AgentPay</strong> · GASOK testnet MVP</p>
+      <p>Track 04 · AI / Web3 · GIWA-native product fit</p>
+    </footer>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

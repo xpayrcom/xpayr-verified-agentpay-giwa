@@ -1,0 +1,35 @@
+{
+  "authorities": {
+    "evidence_producer_address": "0x79E5c4591691a8369CE4537c25cF1aa3DDe65b45",
+    "policy_authority_address": "0x89128251A3B46328Dc89A13B58C1339217B2fD34"
+  },
+  "boundaries": {
+    "historical_evidence_unchanged": true,
+    "legacy_deployment_authorities_unchanged": true,
+    "real_customer_funds": false,
+    "testnet_only": true
+  },
+  "chain_id": 91342,
+  "constraints": {
+    "evidence_anchor_key_env": "GIWA_EVIDENCE_PRODUCER_PRIVATE_KEY",
+    "policy_signing_key_env": "GIWA_POLICY_AUTHORITY_PRIVATE_KEY",
+    "privileged_authorities_distinct_from_operational_roles": true,
+    "separation_of_duties": true
+  },
+  "deployment": {
+    "contract_address": "0x7b0630cBb92be8E11512cb331b8D1aef94cEEc53",
+    "deployer_address": "0xB209dd7408FFD12A8575a429be946DeD5FbaD732",
+    "deployment_transaction_hash": "0x1fda4860da932d6beab0bedd10046d4dc01a21908c5a2ce969a197bce0006908"
+  },
+  "integrity": {
+    "algorithm": "sha256",
+    "canonicalization": "xpayr-canonical-json-v1",
+    "digest": "0x766385f57fa89d679c5c8fc0222f5b765baceeb9899707b5fafe8df3fc881187",
+    "digest_scope": "canonical_profile_without_integrity"
+  },
+  "mainnet": false,
+  "network_key": "giwa-testnet",
+  "profile_id": "phase4_sod_v1",
+  "schema": "xpayr.giwa.agentpay.authority-profile.v1",
+  "status": "active"
+}

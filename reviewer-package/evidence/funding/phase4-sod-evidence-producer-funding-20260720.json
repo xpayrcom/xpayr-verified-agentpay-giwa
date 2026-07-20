@@ -1,0 +1,56 @@
+{
+  "schema": "xpayr.giwa.agentpay.authority-funding-evidence.v1",
+  "created_at": "2026-07-20T14:05:19Z",
+  "network_key": "giwa-testnet",
+  "chain_id": 91342,
+  "purpose": "bounded_test_eth_for_phase4_xpa2_evidence_anchors",
+  "transaction": {
+    "hash": "0x0fecdfdd511b78d1a3b00f818348fc457d242f1f42725eab1d135ae8e42ef6e4",
+    "from": "0xB209dd7408FFD12A8575a429be946DeD5FbaD732",
+    "to": "0x79E5c4591691a8369CE4537c25cF1aa3DDe65b45",
+    "nonce": 22,
+    "type": 2,
+    "value_wei": "1000000000000",
+    "data": "0x"
+  },
+  "canonical_receipt": {
+    "block_number": 31209759,
+    "block_hash": "0x8d5588fd6f13f7f550fe56f8d444a4e23feba0f2248455c4f828a2009b29b7de",
+    "status": 1,
+    "gas_used": "21000",
+    "effective_gas_price_wei": "1000251",
+    "head_block_number_at_verification": 31211193,
+    "confirmations_at_verification": 1435
+  },
+  "recipient_state": {
+    "code_at_funding_block": "0x",
+    "balance_before_wei": "0",
+    "balance_after_wei": "1000000000000"
+  },
+  "checks": {
+    "canonical_rpc_refetch": true,
+    "chain_id_exact": true,
+    "transaction_receipt_present": true,
+    "transaction_block_membership_exact": true,
+    "receipt_block_hash_canonical": true,
+    "receipt_success": true,
+    "sender_is_phase4_payer": true,
+    "recipient_is_phase4_evidence_producer": true,
+    "value_is_bounded_test_eth": true,
+    "recipient_was_eoa_at_funding_block": true,
+    "recipient_balance_increased_by_exact_value": true
+  },
+  "boundaries": {
+    "testnet_only": true,
+    "real_customer_funds": false,
+    "faucet_dependency": false,
+    "private_keys_persisted": false,
+    "raw_signed_transaction_persisted": false
+  },
+  "integrity": {
+    "algorithm": "sha256",
+    "canonicalization": "xpayr-canonical-json-v1",
+    "scope": "entire_document_except_integrity",
+    "digest": "0xb2ad8c9f45fa5fdc803d83afc3f1046adac017a20097632b0bff8c2aaa06d6c3"
+  }
+}

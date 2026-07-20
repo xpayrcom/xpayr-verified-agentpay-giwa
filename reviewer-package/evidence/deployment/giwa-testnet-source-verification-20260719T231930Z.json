@@ -1,0 +1,36 @@
+{
+  "schema": "xpayr.giwa.agentpay.source-verification-evidence.v1",
+  "networkKey": "giwa-testnet",
+  "chainId": 91342,
+  "contractName": "XPayrVerifiedAgentEscrow",
+  "contractAddress": "0x7b0630cBb92be8E11512cb331b8D1aef94cEEc53",
+  "deploymentTransactionHash": "0x1fda4860da932d6beab0bedd10046d4dc01a21908c5a2ce969a197bce0006908",
+  "verifier": "blockscout",
+  "verifierApiUrl": "https://sepolia-explorer.giwa.io/api/",
+  "submissionGuid": "7b0630cbb92be8e11512cb331b8d1aef94ceec536a5d5b82",
+  "submissionResult": "Pass - Verified",
+  "verifiedAt": "2026-07-19T23:19:30.923483Z",
+  "independentChecks": {
+    "blockscoutV2AddressVerified": true,
+    "blockscoutV2SmartContractVerified": true,
+    "legacyGetSourceCodeStatus": "1",
+    "legacyGetSourceCodeMessage": "OK"
+  },
+  "compiler": {
+    "version": "v0.8.30+commit.73712a01",
+    "optimizerEnabled": true,
+    "optimizerRuns": 200,
+    "evmVersion": "paris"
+  },
+  "constructorArgumentsCharacterCount": 194,
+  "sourceCodeCharacterCount": 16281,
+  "explorerSourceSha256": "4ff7ce24715191f79772ecaed517a39e24a0dadc90695be38bdaec809f9dec09",
+  "localSourceSha256": "4ff7ce24715191f79772ecaed517a39e24a0dadc90695be38bdaec809f9dec09",
+  "sourceMatchesLocal": true,
+  "explorerUrl": "https://sepolia-explorer.giwa.io/address/0x7b0630cBb92be8E11512cb331b8D1aef94cEEc53?tab=contract",
+  "sourcePath": "contracts/XPayrVerifiedAgentEscrow.sol",
+  "disclaimers": [
+    "Source verification improves reviewer visibility; it does not replace canonical receipt or runtime-bytecode verification.",
+    "GIWA Sepolia testnet only. No production-readiness or real-funds claim."
+  ]
+}

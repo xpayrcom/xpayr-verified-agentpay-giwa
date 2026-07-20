@@ -1,0 +1,38 @@
+name: Reviewer package CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: reviewer-package/package-lock.json
+
+      - name: Verify sealed package before installation
+        run: node reviewer-package/scripts/verify-reviewer-package.mjs --package-root reviewer-package
+
+      - name: Install reviewer dependencies
+        run: npm --prefix reviewer-package ci
+
+      - name: Run reviewer tests
+        run: npm --prefix reviewer-package test
+
+      - name: Audit production dependencies
+        run: npm --prefix reviewer-package audit --omit=dev --audit-level=high

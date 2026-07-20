@@ -1,0 +1,31 @@
+XPAYR Verified AgentPay for GIWA — GASOK Deck QA
+Date: 2026-07-20
+
+Deliverables
+- PPTX: xpayr-verified-agentpay-gasok-deck.pptx
+- PDF: xpayr-verified-agentpay-gasok-deck.pdf
+- Authoring source: xpayr-verified-agentpay-gasok-deck.mjs
+- Rendered slides: rendered/slide-01.png through rendered/slide-08.png
+- Montage: rendered/montage.png
+
+Build and content checks
+- Built as an editable 1280 x 720 presentation with @oai/artifact-tool.
+- Eight slides use the Codex Grid layout references 01, 05, 17, 13, 08, 19, 18, and 26.
+- The existing AgentPay reviewer UI screenshot is used once, on slide 5.
+- Selected GASOK track is Track 04. AI / WEB3. GIWA-native fit remains narrative context, not a second selected track.
+- Final manifest line: 81 files; 1,557,591 bytes; digest 0x943a30124f5219d34ef0043aeebaea4a60b349a8c0f15649bb31b91239e779ad.
+- Source status is stated exactly as verified_partial_expected_no_cbor and is never presented as FULL.
+- Dojang is stated as TESTNET_FAUCET with test_only=true and is never described as KYC.
+- Product boundaries explicitly exclude mainnet, real funds, stablecoin claims, autonomous evaluator release, shipped GIWA Wallet integration, and grant-outcome claims.
+
+Layout and render QA
+- slides_test.py: PASS — no slide-canvas overflow detected.
+- LibreOffice PPTX round-trip: all 8 slides rendered successfully.
+- Full-size visual inspection: all 8 rendered slides checked individually.
+- Unintended overlaps, clipping, broken text wrapping, and low-contrast screenshot caption issues: none remaining.
+- PDF: 8 pages; 960.009 x 540 points; PDF 1.7; not encrypted.
+
+SHA-256
+- PPTX: 5bb21afcb5c20aa582f88735f4251bb906fba7e442bcca8daaad987aff55b5ba
+- PDF: 4f25240ced09e2560f71d30babc3be1c479eedd58aeb79858477b3d4f0874db4
+- Montage: d9c63c06be4245c7cd718d53d38c1235aa12de056891e6f6532307940c84c773

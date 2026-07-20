@@ -1,0 +1,66 @@
+{
+  "schema": "xpayr.giwa.verified-agentpay.network.v1",
+  "schemaVersion": 1,
+  "networkKey": "giwa-testnet",
+  "displayName": "GIWA Sepolia",
+  "environment": "testnet",
+  "chainFamily": "evm",
+  "chainId": 91342,
+  "mainnet": false,
+  "rpc": {
+    "canonical": "https://sepolia-rpc.giwa.io",
+    "flashblocks": "https://sepolia-rpc-flashblocks.giwa.io"
+  },
+  "explorer": {
+    "base_url": "https://sepolia-explorer.giwa.io",
+    "transactionPath": "/tx/{txHash}",
+    "addressPath": "/address/{address}"
+  },
+  "gas_asset": {
+    "symbol": "ETH",
+    "decimals": 18,
+    "test_only": true,
+    "economic_value": false
+  },
+  "confirmation_policy": {
+    "flashblocks_role": "pending_ux_only",
+    "canonical_receipt_required": true,
+    "required_confirmations": 1
+  },
+  "contracts": {
+    "dojang_scroll": "0xd5077b67dcb56caC8b270C7788FC3E6ee03F17B9",
+    "eas": "0x4200000000000000000000000000000000000021",
+    "escrow": "0x7b0630cBb92be8E11512cb331b8D1aef94cEEc53"
+  },
+  "dojang": {
+    "function_signature": "isVerified(address,bytes32)",
+    "attester_allowlist": [
+      {
+        "name": "UPBIT_KOREA",
+        "id": "0xd99b42e778498aa3c9c1f6a012359130252780511687a35982e8e52735453034",
+        "test_only": false
+      },
+      {
+        "name": "TESTNET_FAUCET",
+        "id": "0xaa92f8c143657dde575de430aecaea6ca91f2e6072339b16932d426895d8d678",
+        "test_only": true
+      }
+    ],
+    "default_attester": "UPBIT_KOREA",
+    "validity_source": "contract_isVerified",
+    "fail_closed": true
+  },
+  "capabilities": {
+    "mainnet": false,
+    "wallet_sdk": false,
+    "paymaster": false,
+    "cross_chain": false
+  },
+  "constraints": {
+    "assetMode": "native_test_eth_only",
+    "realCustomerFundsAllowed": false,
+    "stablecoinClaimsAllowed": false,
+    "crossChainAllowed": false,
+    "mainnetExecutionAllowed": false
+  }
+}

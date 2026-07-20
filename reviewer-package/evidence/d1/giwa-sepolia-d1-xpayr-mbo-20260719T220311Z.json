@@ -1,0 +1,182 @@
+{
+  "attester_registry": [
+    {
+      "attester_address": "0x09b170ca2a006081042992bce7379b85a02149c6",
+      "attester_id": "0xd99b42e778498aa3c9c1f6a012359130252780511687a35982e8e52735453034",
+      "attester_name": "UPBIT_KOREA",
+      "source": "dojang_attester_book_getAttester",
+      "test_only": false
+    },
+    {
+      "attester_address": "0x63cce2b569a7bc35895ee24306c1512fefc06121",
+      "attester_id": "0xaa92f8c143657dde575de430aecaea6ca91f2e6072339b16932d426895d8d678",
+      "attester_name": "TESTNET_FAUCET",
+      "source": "dojang_attester_book_getAttester",
+      "test_only": true
+    }
+  ],
+  "authority": {
+    "checksum_is_producer_signature": false,
+    "mutation_rpc_methods_used": [],
+    "signature_requested": false,
+    "transaction_sent": false,
+    "wallet_connected": false
+  },
+  "canonical_observation": {
+    "block_hash": "0xc89cddeed490aaf8e95b099d6677f4c3b72bf24dcfa1898224871e60cfe1a624",
+    "block_number": 31153475,
+    "block_tag": "0x1db5d43",
+    "block_timestamp": 1784498591,
+    "eip_1898_hash_pinned": true,
+    "post_read_canonical_recheck": true
+  },
+  "checked_at": "2026-07-19T22:03:12.000Z",
+  "checks": {
+    "attester_registry_read_at_pinned_block": true,
+    "chain_id_matches_manifest": true,
+    "one_canonical_block_for_all_reads": true,
+    "payer_verified": true,
+    "provider_verified": true
+  },
+  "evidence_status": "verified",
+  "integrity": {
+    "algorithm": "sha256",
+    "digest": "0x3f15cacd2a712f419d8fb220d6840bfe484504df5d0278a8e57da7a58020fe9c",
+    "digest_scope": "canonical_payload_without_integrity",
+    "producer_signature": null
+  },
+  "mode": "canonical_read_only",
+  "network": {
+    "canonical_rpc_origin": "https://sepolia-rpc.giwa.io",
+    "chain_id": 91342,
+    "dojang_attester_book": "0xda282e89244424e297ce8e78089b54d043fb28b6",
+    "dojang_scroll": "0xd5077b67dcb56cac8b270c7788fc3e6ee03f17b9",
+    "eas": "0x4200000000000000000000000000000000000021",
+    "environment": "testnet",
+    "explorer_origin": "https://sepolia-explorer.giwa.io",
+    "network_key": "giwa-testnet",
+    "verified_address_schema_uid": "0x072d75e18b2be4f89a13a7147240477481c4b526d5795802acba59046b426e08"
+  },
+  "overall_pass": true,
+  "privacy": {
+    "personal_contact_fields_retained": false,
+    "public_wallet_addresses_only": true,
+    "raw_attestation_data_retained": false,
+    "sensitive_credentials_retained": false
+  },
+  "required_roles": [
+    "payer",
+    "provider"
+  ],
+  "roles": {
+    "payer": {
+      "accepted_attester_ids": [
+        "0xaa92f8c143657dde575de430aecaea6ca91f2e6072339b16932d426895d8d678"
+      ],
+      "address": "0xb209dd7408ffd12a8575a429be946ded5fbad732",
+      "attesters": [
+        {
+          "aggregate_is_verified": false,
+          "aggregate_source": "dojang_contract_isVerified",
+          "attestation": null,
+          "attester_id": "0xd99b42e778498aa3c9c1f6a012359130252780511687a35982e8e52735453034",
+          "attester_name": "UPBIT_KOREA",
+          "attester_registry_source": "dojang_attester_book_getAttester",
+          "official_attester_address": "0x09b170ca2a006081042992bce7379b85a02149c6",
+          "test_only": false,
+          "verified": false
+        },
+        {
+          "aggregate_is_verified": true,
+          "aggregate_source": "dojang_contract_isVerified",
+          "attestation": {
+            "attester_address": "0x63cce2b569a7bc35895ee24306c1512fefc06121",
+            "checks": {
+              "attestation_uid_matches": true,
+              "issued_not_after_block": true,
+              "not_expired": true,
+              "not_revoked": true,
+              "official_attester_matches": true,
+              "recipient_matches": true,
+              "schema_uid_matches": true,
+              "uid_nonzero": true,
+              "verified_data_true": true,
+              "verified_data_word_valid": true
+            },
+            "data_is_verified": true,
+            "expires_at": 1787090389,
+            "issued_at": 1784498389,
+            "raw_attestation_data_retained": false,
+            "recipient": "0xb209dd7408ffd12a8575a429be946ded5fbad732",
+            "revocation_time": 0,
+            "schema_uid": "0x072d75e18b2be4f89a13a7147240477481c4b526d5795802acba59046b426e08",
+            "uid": "0x76afa1fc380ec9c0470e16ac084e63887104d2fd5bd4c7e896ebf096a8a6d909",
+            "valid": true
+          },
+          "attester_id": "0xaa92f8c143657dde575de430aecaea6ca91f2e6072339b16932d426895d8d678",
+          "attester_name": "TESTNET_FAUCET",
+          "attester_registry_source": "dojang_attester_book_getAttester",
+          "official_attester_address": "0x63cce2b569a7bc35895ee24306c1512fefc06121",
+          "test_only": true,
+          "verified": true
+        }
+      ],
+      "verified": true
+    },
+    "provider": {
+      "accepted_attester_ids": [
+        "0xaa92f8c143657dde575de430aecaea6ca91f2e6072339b16932d426895d8d678"
+      ],
+      "address": "0x065b8ebec5a59ef6324138ecf21d630ae4137152",
+      "attesters": [
+        {
+          "aggregate_is_verified": false,
+          "aggregate_source": "dojang_contract_isVerified",
+          "attestation": null,
+          "attester_id": "0xd99b42e778498aa3c9c1f6a012359130252780511687a35982e8e52735453034",
+          "attester_name": "UPBIT_KOREA",
+          "attester_registry_source": "dojang_attester_book_getAttester",
+          "official_attester_address": "0x09b170ca2a006081042992bce7379b85a02149c6",
+          "test_only": false,
+          "verified": false
+        },
+        {
+          "aggregate_is_verified": true,
+          "aggregate_source": "dojang_contract_isVerified",
+          "attestation": {
+            "attester_address": "0x63cce2b569a7bc35895ee24306c1512fefc06121",
+            "checks": {
+              "attestation_uid_matches": true,
+              "issued_not_after_block": true,
+              "not_expired": true,
+              "not_revoked": true,
+              "official_attester_matches": true,
+              "recipient_matches": true,
+              "schema_uid_matches": true,
+              "uid_nonzero": true,
+              "verified_data_true": true,
+              "verified_data_word_valid": true
+            },
+            "data_is_verified": true,
+            "expires_at": 1787090287,
+            "issued_at": 1784498287,
+            "raw_attestation_data_retained": false,
+            "recipient": "0x065b8ebec5a59ef6324138ecf21d630ae4137152",
+            "revocation_time": 0,
+            "schema_uid": "0x072d75e18b2be4f89a13a7147240477481c4b526d5795802acba59046b426e08",
+            "uid": "0x8b64e176c54fd1376194fdb2adb6cb04347b56cea9186d23bd0a21c8aeeed724",
+            "valid": true
+          },
+          "attester_id": "0xaa92f8c143657dde575de430aecaea6ca91f2e6072339b16932d426895d8d678",
+          "attester_name": "TESTNET_FAUCET",
+          "attester_registry_source": "dojang_attester_book_getAttester",
+          "official_attester_address": "0x63cce2b569a7bc35895ee24306c1512fefc06121",
+          "test_only": true,
+          "verified": true
+        }
+      ],
+      "verified": true
+    }
+  },
+  "schema": "xpayr.giwa.dojang-d1-evidence.v1"
+}

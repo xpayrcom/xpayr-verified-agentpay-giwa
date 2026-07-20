@@ -1,0 +1,169 @@
+{
+  "anchor": {
+    "block_hash": "0x4d3bc5d4c5ae41f6af13c10bcbab05847d7166d73d3e450d42a45409c2c606bb",
+    "block_number": 31160977,
+    "block_timestamp": 1784506093,
+    "calldata": "0x58504131ac092d381c84b3e54794f96381cfed1ea12861bd247478896ad3d386a681bf3615d313b841f749db036be8dd5807cb73951a11951b9fc29a3393ccfc2f68a251306e041fa5ad2ee337dccc84fe86f3f3973e940d6a1dae410b725a0c932374a3bda744291f37b956f8423cd4f81899d8c2aa793de4ac765d7853ad0e0794ccc7d2e93fe4a77ed3fe4ddd36b11cbd28f5f4f786c2af6509119f2153eda672efebff520a8c22f6947e4882538391f7aed19be2eb41de1656697fa05b94844483f0",
+    "calldata_bytes": 196,
+    "canonical_block_refetched_twice": true,
+    "confirmations": 6,
+    "confirmations_required": 1,
+    "decoded": {
+      "attestation_id": "0x15d313b841f749db036be8dd5807cb73951a11951b9fc29a3393ccfc2f68a251",
+      "evidence_digest": "0x306e041fa5ad2ee337dccc84fe86f3f3973e940d6a1dae410b725a0c932374a3",
+      "schema_hash": "0xac092d381c84b3e54794f96381cfed1ea12861bd247478896ad3d386a681bf36",
+      "signature_hash": "0xff520a8c22f6947e4882538391f7aed19be2eb41de1656697fa05b94844483f0",
+      "source_file_sha256": "0xbda744291f37b956f8423cd4f81899d8c2aa793de4ac765d7853ad0e0794ccc7",
+      "typed_data_digest": "0xd2e93fe4a77ed3fe4ddd36b11cbd28f5f4f786c2af6509119f2153eda672efeb"
+    },
+    "effective_gas_price_wei": "1000251",
+    "explorer_url": "https://sepolia-explorer.giwa.io/tx/0xbef25cd50a0d5582718a20b818bba43acd587ea69758005689362b2fc82f2be3",
+    "from": "0xb209dd7408ffd12a8575a429be946ded5fbad732",
+    "gas_used": "28840",
+    "nonce": 21,
+    "producer_code_at_receipt_block": "0x",
+    "producer_was_eoa_at_receipt_block": true,
+    "receipt_status": 1,
+    "scheme": "giwa_eoa_self_transaction_calldata_v1",
+    "to": "0xb209dd7408ffd12a8575a429be946ded5fbad732",
+    "transaction_hash": "0xbef25cd50a0d5582718a20b818bba43acd587ea69758005689362b2fc82f2be3",
+    "transaction_type": 2,
+    "value_wei": "0"
+  },
+  "boundaries": {
+    "legal_non_repudiation_claimed": false,
+    "organization_identity_claimed": false,
+    "private_keys_persisted": false,
+    "producer_claim": "control_of_named_eoa_at_signature_and_anchor_time",
+    "raw_signed_transaction_persisted": false,
+    "real_customer_funds": false,
+    "searchable_registry_claimed": false,
+    "source_evidence_modified": false,
+    "testnet_only": true
+  },
+  "chain_id": 91342,
+  "checks": {
+    "anchor_calldata_signature_bound": true,
+    "anchor_producer_was_eoa": true,
+    "anchor_self_transaction_exact": true,
+    "anchor_transaction_canonical": true,
+    "anchor_value_zero": true,
+    "policy_lifecycle_binding_exact": true,
+    "producer_is_lifecycle_payer": true,
+    "producer_signature_valid": true,
+    "signed_policy_artifact_valid": true,
+    "source_exact_file_hash_bound": true,
+    "source_integrity_valid": true
+  },
+  "created_at": "2026-07-20T00:08:20.069Z",
+  "escrow_contract": "0x7b0630cbb92be8e11512cb331b8d1aef94ceec53",
+  "evidence_level": "canonical_giwa_sepolia_lifecycle_receipts_producer_signed_and_onchain_anchored",
+  "integrity": {
+    "algorithm": "sha256",
+    "canonicalization": "xpayr-canonical-json-v1",
+    "digest": "0x7a5bf774ac97f389564673eff05f1498c3d110cbb6a25a8178018e963ad99657"
+  },
+  "network_key": "giwa-testnet",
+  "overall_authenticated": true,
+  "policy": {
+    "artifact_digest": "0x0a4214aaf8bf094391e43086bacbca1a9ec0a4ddab3c707fdefa22f6707a944c",
+    "binding_digest": "0xfb54acbbee4859d9102f8738e07ab9a6562bce94ccb6508db0df611452835646",
+    "decision": "ALLOW",
+    "decision_hash": "0xf4b8d64183df4317cd6f5f127a573888f289ee94d667a219ac78948675b33f52",
+    "path": "evidence/policy/signed-refund-1784505313307.policy.json",
+    "producer_address": "0xb209dd7408ffd12a8575a429be946ded5fbad732",
+    "producer_signature_verified": true,
+    "schema": "xpayr.giwa.agentpay.policy-evidence.v1"
+  },
+  "producer": {
+    "address": "0xb209dd7408ffd12a8575a429be946ded5fbad732",
+    "domain": {
+      "chainId": 91342,
+      "name": "XPAYR Verified AgentPay Evidence",
+      "verifyingContract": "0x7b0630cbb92be8e11512cb331b8d1aef94ceec53",
+      "version": "1"
+    },
+    "identity_claim": "address_control_only",
+    "message": {
+      "attestationId": "0x15d313b841f749db036be8dd5807cb73951a11951b9fc29a3393ccfc2f68a251",
+      "evidenceDigest": "0x306e041fa5ad2ee337dccc84fe86f3f3973e940d6a1dae410b725a0c932374a3",
+      "jobId": "0x5f7f7075eac19ed40139af4de22d905d34f67303a8d7564599ea86c480dcbaf5",
+      "outcomeHash": "0x0ae202c5d1ff9dcd4329d24acbf3bddff6279ad182d19d899440adb36d927795",
+      "policyDecisionHash": "0xf4b8d64183df4317cd6f5f127a573888f289ee94d667a219ac78948675b33f52",
+      "policyEnvelopeDigest": "0x0a4214aaf8bf094391e43086bacbca1a9ec0a4ddab3c707fdefa22f6707a944c",
+      "producer": "0xb209dd7408ffd12a8575a429be946ded5fbad732",
+      "runIdHash": "0xf8f3eaa2d0840d829c8e1c1e7af0e5ca022c86b2163b63164b5387ec1f40cba6",
+      "schemaHash": "0xac092d381c84b3e54794f96381cfed1ea12861bd247478896ad3d386a681bf36",
+      "sourceFileSha256": "0xbda744291f37b956f8423cd4f81899d8c2aa793de4ac765d7853ad0e0794ccc7",
+      "terminalTxHash": "0x12b65cd22071206fc9a0bfdf62efad91a1eee526fb83cb21dfa0f8fb99104fa6"
+    },
+    "primary_type": "EvidenceAuthentication",
+    "recovered_address": "0xb209dd7408ffd12a8575a429be946ded5fbad732",
+    "role": "configured_deployer_payer_testnet_eoa",
+    "signature": "0x906db9e412ede4d629e273c612e8318ac095ab497b277c542a82581881c2fafa453301e6834f6fd3f7df17f93141ad5b93e06e060caf29b504c1ac3908ff191b1b",
+    "signature_hash": "0xff520a8c22f6947e4882538391f7aed19be2eb41de1656697fa05b94844483f0",
+    "signature_scheme": "eip712_secp256k1",
+    "signature_verified": true,
+    "typed_data_digest": "0xd2e93fe4a77ed3fe4ddd36b11cbd28f5f4f786c2af6509119f2153eda672efeb",
+    "types": {
+      "EvidenceAuthentication": [
+        {
+          "name": "schemaHash",
+          "type": "bytes32"
+        },
+        {
+          "name": "evidenceDigest",
+          "type": "bytes32"
+        },
+        {
+          "name": "sourceFileSha256",
+          "type": "bytes32"
+        },
+        {
+          "name": "runIdHash",
+          "type": "bytes32"
+        },
+        {
+          "name": "jobId",
+          "type": "bytes32"
+        },
+        {
+          "name": "policyDecisionHash",
+          "type": "bytes32"
+        },
+        {
+          "name": "policyEnvelopeDigest",
+          "type": "bytes32"
+        },
+        {
+          "name": "outcomeHash",
+          "type": "bytes32"
+        },
+        {
+          "name": "terminalTxHash",
+          "type": "bytes32"
+        },
+        {
+          "name": "attestationId",
+          "type": "bytes32"
+        },
+        {
+          "name": "producer",
+          "type": "address"
+        }
+      ]
+    },
+    "up_id_is_authentication": false
+  },
+  "run_id": "signed-refund-1784505313307",
+  "schema": "xpayr.giwa.agentpay.lifecycle-evidence-authentication.v1",
+  "source": {
+    "evidence_digest": "0x306e041fa5ad2ee337dccc84fe86f3f3973e940d6a1dae410b725a0c932374a3",
+    "file_sha256": "0xbda744291f37b956f8423cd4f81899d8c2aa793de4ac765d7853ad0e0794ccc7",
+    "job_id": "0x5f7f7075eac19ed40139af4de22d905d34f67303a8d7564599ea86c480dcbaf5",
+    "outcome": "REFUNDED",
+    "path": "evidence/lifecycle/signed-refund-1784505313307.evidence.json",
+    "schema": "xpayr.giwa.agentpay.lifecycle-evidence.v1",
+    "terminal_transaction_hash": "0x12b65cd22071206fc9a0bfdf62efad91a1eee526fb83cb21dfa0f8fb99104fa6"
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "schema": "xpayr.giwa.agentpay.reviewer-index.v1",
+  "created_at": "2026-07-20T14:05:19Z",
+  "network_key": "giwa-testnet",
+  "chain_id": 91342,
+  "contract": {
+    "address": "0x7b0630cBb92be8E11512cb331b8D1aef94cEEc53",
+    "deployment_transaction_hash": "0x1fda4860da932d6beab0bedd10046d4dc01a21908c5a2ce969a197bce0006908",
+    "deployment_artifact": "evidence/deployment/giwa-testnet-deployment-20260719220537.json",
+    "runtime_bytecode_verified": true,
+    "source_verification": {
+      "status": "verified_blockscout",
+      "artifact": "evidence/deployment/giwa-testnet-source-verification-20260719T231930Z.json",
+      "submission_guid": "7b0630cbb92be8e11512cb331b8d1aef94ceec536a5d5b82",
+      "local_and_explorer_source_sha256": "4ff7ce24715191f79772ecaed517a39e24a0dadc90695be38bdaec809f9dec09",
+      "verification_level": "verified_partial_expected_no_cbor",
+      "level_recheck_artifact": "evidence/deployment/giwa-testnet-source-verification-level-recheck-20260720T005420Z.json",
+      "level_recheck_artifact_file_sha256": "345bcd3f8d17aa8d750264df135e4c6e189de0fc164424af57d3631b51539986",
+      "is_partially_verified": true,
+      "is_fully_verified": false,
+      "exact_creation_input_match": true,
+      "exact_creation_input_sha256": "36bb86676e4f148342e23177c205bda68bf70b595b48c1a2ad021d0a288ece37"
+    }
+  },
+  "identity": {
+    "d1_artifact": "evidence/d1/giwa-sepolia-d1-xpayr-mbo-20260719T220311Z.json",
+    "d1_digest": "0x3f15cacd2a712f419d8fb220d6840bfe484504df5d0278a8e57da7a58020fe9c",
+    "payer_deployer": "0xB209dd7408FFD12A8575a429be946DeD5FbaD732",
+    "provider": "0x065b8EbeC5a59ef6324138Ecf21D630AE4137152",
+    "up_id_labels": [
+      "xpayr.up.id",
+      "mbo.up.id"
+    ],
+    "up_id_is_authentication": false
+  },
+  "historical_original_d3": [
+    {
+      "run_id": "d3-release-20260719t220612935z",
+      "outcome": "RELEASED",
+      "job_id": "0x8cd63ff846e1f4984eb2cb07f5bd0830c06762d73b27ccd25d7c3bc93882fb1d",
+      "terminal_transaction_hash": "0x44a2b58eb32c3e446a53160cb6c0cab46490db67bcfe3bd40305f7e3a65f209c",
+      "evidence_path": "evidence/lifecycle/d3-release-20260719t220612935z.evidence.json",
+      "evidence_digest": "0x38a655e5642ebbc035d275d1c50ac2a90b83f5a3eddf87d49a66627a1e1acc49",
+      "policy_origin_authentication": "not_provided_cli_hash_only",
+      "producer_authentication": "not_provided"
+    },
+    {
+      "run_id": "d3-refund-20260719t220612935z",
+      "outcome": "REFUNDED",
+      "job_id": "0x18baf246c2de68e98ec50da4ff12c506232aa273faabe450722c4758ff28fae7",
+      "terminal_transaction_hash": "0x9c93b87c6ade8b452a843be0d521ab1092a89312379a518a50ff13591d2ab925",
+      "evidence_path": "evidence/lifecycle/d3-refund-20260719t220612935z.evidence.json",
+      "evidence_digest": "0xec8a4d32d0fde921f8295d0530dfe6057757e5d884e5f90a0d653e22e930743b",
+      "policy_origin_authentication": "not_provided_cli_hash_only",
+      "producer_authentication": "not_provided"
+    }
+  ],
+  "signed_policy_authenticated_d3": [
+    {
+      "run_id": "signed-release-1784505313296",
+      "outcome": "RELEASED",
+      "payment_completed": true,
+      "job_id": "0xa3e3f4a98d9a6c28c6be6f42159eb8950c347b5ca520636cf16c99e6ed6cd0a9",
+      "terminal_transaction_hash": "0xacc9adae988c5094459dec4ff097b4641b608de03a6f0ab820367a6521c87ce2",
+      "lifecycle_evidence_path": "evidence/lifecycle/signed-release-1784505313296.evidence.json",
+      "lifecycle_evidence_digest": "0x80fb1c283d09476bf8caa78c097af17666e9f275688a8b9e628122a3c276b903",
+      "lifecycle_file_sha256": "cfdd1a60bab3621ed02df6070ff0e307a5c8051e9c4d6529ea4b3433bf044a1a",
+      "policy_path": "evidence/policy/signed-release-1784505313296.policy.json",
+      "policy_digest": "0x3520247acf21e70973dc74f6bc679fa3ff6a1c7bf04ea46d1b516a291460a2d7",
+      "policy_decision_hash": "0xda41ef88dfc158fa4bcec926cc35643ab0302bf25cae8c1f00c267de88ef9d98",
+      "policy_typed_data_digest": "0x1a893b7cfa8e89dcdf79cc11182dcc554754c82842cd484339f7bba6365b7fd7",
+      "auth_sidecar_path": "evidence/authenticated/signed-release-1784505313296.auth-v1.json",
+      "auth_sidecar_digest": "0xf24690de808318a133b7f9a4f43437b5aa8306aac67e678f2cbf28314dd6f567",
+      "auth_sidecar_file_sha256": "693ca89c3c8e2c2af21e6fd2fc7ca776c8a9029e97ee55c5b5c88e0b011f5762",
+      "producer_typed_data_digest": "0x07092f6f80594db792e65d7711024753e37a60099b1ffc00079ab05a35933f89",
+      "anchor_transaction_hash": "0x6e1cbe55b2a964388339a1f2912953707a0881c289e2579c92f384384909da5d",
+      "anchor_block_number": 31160915,
+      "anchor_block_hash": "0xec2f1261650ea5c342b92a8f2fed42a719e9c8048b1b9ee766faac6adfa8c259",
+      "producer_signature_verified": true,
+      "anchor_canonical_verified": true
+    },
+    {
+      "run_id": "signed-refund-1784505313307",
+      "outcome": "REFUNDED",
+      "payment_completed": false,
+      "job_id": "0x5f7f7075eac19ed40139af4de22d905d34f67303a8d7564599ea86c480dcbaf5",
+      "terminal_transaction_hash": "0x12b65cd22071206fc9a0bfdf62efad91a1eee526fb83cb21dfa0f8fb99104fa6",
+      "lifecycle_evidence_path": "evidence/lifecycle/signed-refund-1784505313307.evidence.json",
+      "lifecycle_evidence_digest": "0x306e041fa5ad2ee337dccc84fe86f3f3973e940d6a1dae410b725a0c932374a3",
+      "lifecycle_file_sha256": "bda744291f37b956f8423cd4f81899d8c2aa793de4ac765d7853ad0e0794ccc7",
+      "policy_path": "evidence/policy/signed-refund-1784505313307.policy.json",
+      "policy_digest": "0x0a4214aaf8bf094391e43086bacbca1a9ec0a4ddab3c707fdefa22f6707a944c",
+      "policy_decision_hash": "0xf4b8d64183df4317cd6f5f127a573888f289ee94d667a219ac78948675b33f52",
+      "policy_typed_data_digest": "0xf71a8985373d309c78aa8c2231cb0a6423c564b93b5f99f0952635e1e02ecaa0",
+      "auth_sidecar_path": "evidence/authenticated/signed-refund-1784505313307.auth-v1.json",
+      "auth_sidecar_digest": "0x7a5bf774ac97f389564673eff05f1498c3d110cbb6a25a8178018e963ad99657",
+      "auth_sidecar_file_sha256": "670fadd2d043ecce2df3884b65b7bc78ef22baade60182b9800bd9e84df56be1",
+      "producer_typed_data_digest": "0xd2e93fe4a77ed3fe4ddd36b11cbd28f5f4f786c2af6509119f2153eda672efeb",
+      "anchor_transaction_hash": "0xbef25cd50a0d5582718a20b818bba43acd587ea69758005689362b2fc82f2be3",
+      "anchor_block_number": 31160977,
+      "anchor_block_hash": "0x4d3bc5d4c5ae41f6af13c10bcbab05847d7166d73d3e450d42a45409c2c606bb",
+      "producer_signature_verified": true,
+      "anchor_canonical_verified": true
+    }
+  ],
+  "phase4_separation_of_duties": {
+    "authority_profile_path": "config/authority-profiles/phase4_sod_v1.json",
+    "authority_profile_digest": "0x766385f57fa89d679c5c8fc0222f5b765baceeb9899707b5fafe8df3fc881187",
+    "policy_authority": "0x89128251A3B46328Dc89A13B58C1339217B2fD34",
+    "evidence_producer": "0x79E5c4591691a8369CE4537c25cF1aa3DDe65b45",
+    "separation_of_duties": true,
+    "authority_funding": {
+      "artifact_path": "evidence/funding/phase4-sod-evidence-producer-funding-20260720.json",
+      "artifact_digest": "0xb2ad8c9f45fa5fdc803d83afc3f1046adac017a20097632b0bff8c2aaa06d6c3",
+      "transaction_hash": "0x0fecdfdd511b78d1a3b00f818348fc457d242f1f42725eab1d135ae8e42ef6e4",
+      "block_number": 31209759,
+      "block_hash": "0x8d5588fd6f13f7f550fe56f8d444a4e23feba0f2248455c4f828a2009b29b7de",
+      "value_wei": "1000000000000",
+      "canonical_verified": true
+    },
+    "authenticated_lifecycles": [
+      {
+        "run_id": "phase4-sod-release-20260720t134245599z-efaa5ce2-lifecycle",
+        "outcome": "RELEASED",
+        "payment_completed": true,
+        "job_id": "0x9df3f7d659991dfa95ac7ca89e4c531b09a497d65070cd4856db4a9f51eac740",
+        "step_count": 5,
+        "terminal_transaction_hash": "0x66695b08f17e9be7838ec1ab1cb08bb25259e0a9dc496ee1dc1070eca554c92e",
+        "lifecycle_evidence_path": "evidence/lifecycle/phase4-sod-release-20260720t134245599z-efaa5ce2-lifecycle.evidence.json",
+        "lifecycle_evidence_digest": "0x9558da912bcba7998a65585aeaa61f2b11edd1e45bbfdbb42386f090542f1fbc",
+        "lifecycle_file_sha256": "fc9abe028321a3ba03a4cff24576f9172f486739b46d19666ceb41d3471da90b",
+        "policy_path": "evidence/policy/phase4-sod-release-20260720t134245599z-efaa5ce2-policy.policy.json",
+        "policy_digest": "0xe1ca302e6b264b18c9057cfb9913b511909aaf447b5fbb1b2d168d344b0b14d6",
+        "policy_file_sha256": "f8ff994ed286468bfcd4b9c477ab30911f12a2c782875a0004638acb799fc7e2",
+        "policy_decision_hash": "0x9ad7b2dcd3346aa227c68807c78a66490db1a945568f7b273d0e86aa524773ac",
+        "policy_typed_data_digest": "0x00930cb855c6bb5577d8d330b674bb4594056100ea9b7a936e69736335413a94",
+        "auth_sidecar_path": "evidence/authenticated/phase4-sod-release-20260720t134245599z-efaa5ce2-lifecycle.auth-v2.json",
+        "auth_sidecar_digest": "0xc845c36b59294271b91ac5cf4780e4f276aa362fe7ad7f0e61c0cec571e7ded7",
+        "auth_sidecar_file_sha256": "2facccdb372b2d9409870ca7de3a67da6c04950f7e7fcdc97bb725d6f026b6cc",
+        "producer_typed_data_digest": "0xa841236a5e4fe3daecdbc813c555bf08881d053dc4ec21fc6a41133c721171cc",
+        "anchor_transaction_hash": "0x4463689c212a93a679e8f3ce1209d2d86d1f522a6798bc6de151a63174558ba9",
+        "anchor_block_number": 31211004,
+        "anchor_block_hash": "0x662becae8a53723eb47249e57d94df13f2bd1632abf64c49ca8c5e40521e5d55",
+        "producer_signature_verified": true,
+        "anchor_canonical_verified": true
+      },
+      {
+        "run_id": "phase4-sod-refund-20260720t134245599z-cd885085-lifecycle",
+        "outcome": "REFUNDED",
+        "payment_completed": false,
+        "job_id": "0x774f6daa21eb143b12f03e964b21ec5863f509f5f96b0f4b6ace50675204cff6",
+        "step_count": 4,
+        "terminal_transaction_hash": "0x3f58ca24da8c6f5a729212207feeb14514dbb624be6ddd21e2189230137d6355",
+        "lifecycle_evidence_path": "evidence/lifecycle/phase4-sod-refund-20260720t134245599z-cd885085-lifecycle.evidence.json",
+        "lifecycle_evidence_digest": "0x04a6552104ef92927ed7327669aa20f060672036cd3a3e2d794cdd13e938447e",
+        "lifecycle_file_sha256": "03b4a069d655fda741edd9bf897293f2b12c20ed2e8890210f01a45522510d56",
+        "policy_path": "evidence/policy/phase4-sod-refund-20260720t134245599z-cd885085-policy.policy.json",
+        "policy_digest": "0x7eb13796f588f77d9115a851b87b4e02419b1e21a40dc04df6df7492b4a1e0cd",
+        "policy_file_sha256": "db05d298ec3d4b353ed08e9cebb9e49c1891e21605f371facc68a1c41ece2742",
+        "policy_decision_hash": "0xd8f6eaa63a311a83c3ef275643483cf79aa09c973c295c27a7f1e0a4c2d7962a",
+        "policy_typed_data_digest": "0x84c7792630262e24a87f758765964d298b91f5b5c75f26c6e8c8e958c9195f31",
+        "auth_sidecar_path": "evidence/authenticated/phase4-sod-refund-20260720t134245599z-cd885085-lifecycle.auth-v2.json",
+        "auth_sidecar_digest": "0xffd002fbc16b56752559a2483c7bacd5766fffc2ad53a61f7e0db8774053a1d4",
+        "auth_sidecar_file_sha256": "282fdd19c56a57cda884ca5b400777d5061e02f248342e4117cb0f760fff4dfc",
+        "producer_typed_data_digest": "0x874f51ac5f5592d1294cb918b7c460b55488c734c6137ee057140c8cdc2b2241",
+        "anchor_transaction_hash": "0x8696c471adf870f2268515537c7be7f6989e8c5011c38256e846b56278807650",
+        "anchor_block_number": 31211036,
+        "anchor_block_hash": "0x80783b5cf467dbe9148c694ac9662c9950876b3f01a194f672d1ee945e30f04a",
+        "producer_signature_verified": true,
+        "anchor_canonical_verified": true
+      }
+    ]
+  },
+  "authority_model": {
+    "deployer_payer": "0xB209dd7408FFD12A8575a429be946DeD5FbaD732",
+    "operational_roles": [
+      "deployer",
+      "payer"
+    ],
+    "policy_authority": "0x89128251A3B46328Dc89A13B58C1339217B2fD34",
+    "evidence_producer": "0x79E5c4591691a8369CE4537c25cF1aa3DDe65b45",
+    "historical_auth_v1_same_testnet_eoa": true,
+    "same_testnet_eoa": false,
+    "separation_of_duties": true,
+    "claim": "control_of_named_testnet_eoas_at_signature_and_anchor_time_only"
+  },
+  "boundaries": {
+    "testnet_only": true,
+    "real_customer_funds": false,
+    "organization_identity_claimed": false,
+    "legal_non_repudiation_claimed": false,
+    "independent_attestation_claimed": false,
+    "public_repository_or_demo_published": false,
+    "gasok_submission_completed": false,
+    "arc_artifacts_accepted_as_giwa_evidence": false
+  },
+  "integrity": {
+    "algorithm": "sha256",
+    "canonicalization": "xpayr-canonical-json-v1",
+    "scope": "entire_document_except_integrity",
+    "digest": "0x30e5f155ac7b4caeee4a8b149ff653f9c4b82b220b777c09a6344f4cf99e2be5"
+  }
+}

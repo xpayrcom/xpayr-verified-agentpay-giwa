@@ -1,0 +1,12 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+*.log
+node_modules/
+coverage/
+.nyc_output/
+generated/
+artifacts/cache/
+artifacts/foundry/
+artifacts/foundry-cache/

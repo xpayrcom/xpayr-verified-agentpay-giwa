@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "networkKey": "giwa-testnet",
+  "chainId": 91342,
+  "mainnet": false,
+  "contractName": "XPayrVerifiedAgentEscrow",
+  "status": "deployed_testnet",
+  "contractAddress": "0x7b0630cBb92be8E11512cb331b8D1aef94cEEc53",
+  "deploymentTransactionHash": "0x1fda4860da932d6beab0bedd10046d4dc01a21908c5a2ce969a197bce0006908",
+  "deployerAddress": "0xB209dd7408FFD12A8575a429be946DeD5FbaD732",
+  "deployedAt": "2026-07-19T22:05:37.232Z",
+  "sourceVerification": "verified_blockscout",
+  "authorities": {
+    "policyAuthorityAddress": "0xB209dd7408FFD12A8575a429be946DeD5FbaD732",
+    "evidenceProducerAddress": "0xB209dd7408FFD12A8575a429be946DeD5FbaD732",
+    "model": "same_testnet_eoa_demo_only",
+    "separationOfDuties": false
+  },
+  "asset": {
+    "type": "native",
+    "symbol": "ETH",
+    "environment": "testnet",
+    "economicValueClaimed": false
+  },
+  "constructor": {
+    "dojangScrollAddress": "0xd5077b67dcb56caC8b270C7788FC3E6ee03F17B9",
+    "attesterIds": {
+      "upbitKorea": "0xd99b42e778498aa3c9c1f6a012359130252780511687a35982e8e52735453034",
+      "testnetFaucet": "0xaa92f8c143657dde575de430aecaea6ca91f2e6072339b16932d426895d8d678"
+    }
+  },
+  "evidence": {
+    "deploymentArtifact": "evidence/deployment/giwa-testnet-deployment-20260719220537.json",
+    "runtimeCodePresent": true,
+    "runtimeBytecodeVerified": true,
+    "explorerVerified": true,
+    "sourceVerificationArtifact": "evidence/deployment/giwa-testnet-source-verification-20260719T231930Z.json",
+    "sourceVerificationGuid": "7b0630cbb92be8e11512cb331b8d1aef94ceec536a5d5b82",
+    "sourceVerificationLevel": "verified_partial_expected_no_cbor",
+    "sourceVerificationLevelRecheckArtifact": "evidence/deployment/giwa-testnet-source-verification-level-recheck-20260720T005420Z.json",
+    "sourceVerificationLevelRecheckFileSha256": "345bcd3f8d17aa8d750264df135e4c6e189de0fc164424af57d3631b51539986",
+    "creationInputByteForByteVerified": true,
+    "d1Artifact": "evidence/d1/giwa-sepolia-d1-xpayr-mbo-20260719T220311Z.json",
+    "d1Digest": "0x3f15cacd2a712f419d8fb220d6840bfe484504df5d0278a8e57da7a58020fe9c",
+    "d1OnchainReconstructed": true,
+    "d1ReconstructionDigest": "0x3f15cacd2a712f419d8fb220d6840bfe484504df5d0278a8e57da7a58020fe9c"
+  },
+  "notes": [
+    "Canonical GIWA Sepolia receipt and non-empty runtime code observed.",
+    "Runtime bytecode matched the compile artifact after masking compiler-declared immutable slots; immutable getters were independently checked.",
+    "Positive D1 evidence was independently reconstructed from canonical RPC at its retained block for the confirmed payer/deployer and provider before signer loading.",
+    "Explorer source verification passed on GIWA Sepolia Blockscout and the published source SHA-256 matches the retained local source.",
+    "Blockscout v2 labels this exact match PARTIAL rather than FULL because the deployed compiler settings intentionally omit CBOR metadata auxdata; the creation input still matches local bytecode plus constructor arguments byte-for-byte.",
+    "Explorer source verification is separate from, and does not replace, canonical receipt and runtime-bytecode verification."
+  ],
+  "deploymentBlockNumber": 31153615,
+  "deploymentBlockHash": "0x62d8f330609beb986c8795882c926d535a68357e1b6b3b179b92666b620de0c9"
+}

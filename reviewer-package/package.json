@@ -1,0 +1,44 @@
+{
+  "name": "@xpayr/giwa-verified-agentpay",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Isolated GIWA Sepolia MVP for verified, policy-controlled AI agent escrow payments.",
+  "scripts": {
+    "compile": "node scripts/compile.mjs",
+    "build:wallet": "node scripts/build-wallet-client.mjs",
+    "preflight": "node scripts/preflight.mjs",
+    "preflight:deploy": "node scripts/deploy.mjs",
+    "preflight:d1": "node scripts/record-d1-evidence.mjs",
+    "preflight:lifecycle": "node scripts/run-giwa-lifecycle.mjs",
+    "preflight:policy": "node scripts/create-policy-evidence.mjs",
+    "preflight:authenticate": "node scripts/authenticate-lifecycle-evidence.mjs",
+    "authority:sod:keygen": "node scripts/generate-sod-authority-keys.mjs",
+    "reviewer:build": "node scripts/build-reviewer-package.mjs",
+    "reviewer:verify": "node scripts/verify-reviewer-package.mjs",
+    "deploy:giwa-testnet": "node scripts/deploy.mjs --execute",
+    "lifecycle:giwa-testnet": "node scripts/run-giwa-lifecycle.mjs --execute",
+    "policy:giwa-testnet": "node scripts/create-policy-evidence.mjs --execute",
+    "authenticate:giwa-testnet": "node scripts/authenticate-lifecycle-evidence.mjs --execute",
+    "serve": "node src/server.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "test:reviewer-package": "node --test tests/reviewer-package.test.mjs",
+    "test:contract": "forge test -vv",
+    "test:all": "npm run test && npm run test:contract",
+    "evidence": "node scripts/write-local-evidence.mjs",
+    "demo": "node scripts/run-local-demo.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "ethers": "6.17.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.1",
+    "solc": "0.8.30"
+  },
+  "overrides": {
+    "tmp": "0.2.7"
+  }
+}

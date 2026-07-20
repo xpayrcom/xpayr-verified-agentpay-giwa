@@ -1,0 +1,61 @@
+{
+  "schema": "xpayr.giwa.agentpay.deployment-evidence.v1",
+  "evidenceLevel": "canonical_giwa_sepolia_receipt",
+  "networkKey": "giwa-testnet",
+  "chainId": 91342,
+  "contractName": "XPayrVerifiedAgentEscrow",
+  "contractAddress": "0x7b0630cBb92be8E11512cb331b8D1aef94cEEc53",
+  "deploymentTransactionHash": "0x1fda4860da932d6beab0bedd10046d4dc01a21908c5a2ce969a197bce0006908",
+  "blockNumber": 31153615,
+  "blockHash": "0x62d8f330609beb986c8795882c926d535a68357e1b6b3b179b92666b620de0c9",
+  "canonicalHead": 31153619,
+  "confirmations": 5,
+  "status": 1,
+  "gasUsed": "1709085",
+  "effectiveGasPriceWei": "1000251",
+  "actualCostWei": "1709513980335",
+  "maxReservedCostWei": "2069617426658",
+  "deployerAddress": "0xB209dd7408FFD12A8575a429be946DeD5FbaD732",
+  "sourceSha256": "4ff7ce24715191f79772ecaed517a39e24a0dadc90695be38bdaec809f9dec09",
+  "artifactSha256": "4e89c6db0e9cf3bff175ffd0ec3e97206c72f8096e5bec549eaa10b800bcaed3",
+  "compiler": "0.8.30+commit.73712a01.Emscripten.clang",
+  "optimizer": {
+    "enabled": true,
+    "runs": 200
+  },
+  "evmVersion": "paris",
+  "runtimeCodePresent": true,
+  "runtimeBytecodeVerified": true,
+  "runtimeBytecode": {
+    "mode": "solc_immutable_references_masked_plus_getter_bindings",
+    "byteLength": 7527,
+    "immutableSlotCount": 3,
+    "immutableReferenceCount": 6,
+    "actualNormalizedSha256": "951a16b4b0d8991ab6e80c20c2dccc01bb21054249b951f81b723ba985a3ccb3",
+    "expectedNormalizedSha256": "951a16b4b0d8991ab6e80c20c2dccc01bb21054249b951f81b723ba985a3ccb3",
+    "matches": true
+  },
+  "immutableBindings": {
+    "dojangScroll": "0xd5077b67dcb56caC8b270C7788FC3E6ee03F17B9",
+    "upbitKoreaAttesterId": "0xd99b42e778498aa3c9c1f6a012359130252780511687a35982e8e52735453034",
+    "testnetFaucetAttesterId": "0xaa92f8c143657dde575de430aecaea6ca91f2e6072339b16932d426895d8d678"
+  },
+  "d1Evidence": {
+    "path": "evidence/d1/giwa-sepolia-d1-xpayr-mbo-20260719T220311Z.json",
+    "digest": "0x3f15cacd2a712f419d8fb220d6840bfe484504df5d0278a8e57da7a58020fe9c",
+    "blockNumber": 31153475,
+    "blockHash": "0xc89cddeed490aaf8e95b099d6677f4c3b72bf24dcfa1898224871e60cfe1a624",
+    "payer": "0xb209dd7408ffd12a8575a429be946ded5fbad732",
+    "provider": "0x065b8ebec5a59ef6324138ecf21d630ae4137152",
+    "producerAuthenticated": false,
+    "onchainReconstructed": true,
+    "reconstructionDigest": "0x3f15cacd2a712f419d8fb220d6840bfe484504df5d0278a8e57da7a58020fe9c"
+  },
+  "explorerUrl": "https://sepolia-explorer.giwa.io/address/0x7b0630cBb92be8E11512cb331b8D1aef94cEEc53",
+  "transactionUrl": "https://sepolia-explorer.giwa.io/tx/0x1fda4860da932d6beab0bedd10046d4dc01a21908c5a2ce969a197bce0006908",
+  "deployedAt": "2026-07-19T22:05:37.232Z",
+  "disclaimers": [
+    "GIWA Sepolia testnet only.",
+    "No real customer funds or production readiness claim."
+  ]
+}

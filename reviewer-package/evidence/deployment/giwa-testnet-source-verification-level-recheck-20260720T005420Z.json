@@ -1,0 +1,78 @@
+{
+  "schema": "xpayr.giwa.agentpay.source-verification-level-recheck.v1",
+  "observedAt": "2026-07-20T00:54:20Z",
+  "networkKey": "giwa-testnet",
+  "chainId": 91342,
+  "contractName": "XPayrVerifiedAgentEscrow",
+  "contractAddress": "0x7b0630cBb92be8E11512cb331b8D1aef94cEEc53",
+  "deploymentTransactionHash": "0x1fda4860da932d6beab0bedd10046d4dc01a21908c5a2ce969a197bce0006908",
+  "priorVerification": {
+    "artifact": "evidence/deployment/giwa-testnet-source-verification-20260719T231930Z.json",
+    "submissionGuid": "7b0630cbb92be8e11512cb331b8d1aef94ceec536a5d5b82",
+    "submissionResult": "Pass - Verified"
+  },
+  "blockscoutLive": {
+    "addressIsVerified": true,
+    "smartContractIsPartiallyVerified": true,
+    "smartContractIsFullyVerified": false,
+    "isChangedBytecode": false,
+    "contractName": "XPayrVerifiedAgentEscrow",
+    "compilerVersion": "v0.8.30+commit.73712a01",
+    "optimizerEnabled": true,
+    "optimizerRuns": 200,
+    "evmVersion": "paris",
+    "licenseType": "none",
+    "addressApiUrl": "https://sepolia-explorer.giwa.io/api/v2/addresses/0x7b0630cBb92be8E11512cb331b8D1aef94cEEc53",
+    "smartContractApiUrl": "https://sepolia-explorer.giwa.io/api/v2/smart-contracts/0x7b0630cBb92be8E11512cb331b8D1aef94cEEc53"
+  },
+  "standardJsonUpgradeAttempt": {
+    "submitted": true,
+    "endpoint": "https://sepolia-explorer.giwa.io/api/v2/smart-contracts/0x7b0630cBb92be8E11512cb331b8D1aef94cEEc53/verification/via/standard-input",
+    "requestFormat": "solidity-standard-json-input",
+    "compilerVersion": "v0.8.30+commit.73712a01",
+    "contractName": "XPayrVerifiedAgentEscrow",
+    "sourcePath": "contracts/XPayrVerifiedAgentEscrow.sol",
+    "constructorArgumentsBytes": 96,
+    "httpStatus": 200,
+    "responseMessage": "Smart-contract verification started",
+    "fullLevelObservedAfterProcessingWindow": false,
+    "blindRetryPerformed": false
+  },
+  "localAndOnchainParity": {
+    "sourceSha256": "4ff7ce24715191f79772ecaed517a39e24a0dadc90695be38bdaec809f9dec09",
+    "explorerSourceMatchesLocal": true,
+    "creationInputBytes": 7967,
+    "localCreationInputSha256": "36bb86676e4f148342e23177c205bda68bf70b595b48c1a2ad021d0a288ece37",
+    "onchainCreationInputSha256": "36bb86676e4f148342e23177c205bda68bf70b595b48c1a2ad021d0a288ece37",
+    "creationInputMatchesByteForByte": true,
+    "runtimeBytes": 7527,
+    "immutableAwareRuntimeVerified": true,
+    "compilerSettings": {
+      "optimizerEnabled": true,
+      "optimizerRuns": 200,
+      "evmVersion": "paris",
+      "metadataBytecodeHash": "none",
+      "appendCbor": false
+    },
+    "cborAuxdataPresent": false
+  },
+  "classification": {
+    "explorerLevel": "verified_partial_expected_no_cbor",
+    "sourceVerificationGapClosed": true,
+    "fullExplorerLevelAchievableForCurrentDeployment": false,
+    "reason": "Blockscout FULL requires a metadata match. This deployment intentionally contains no CBOR metadata auxdata, so its exact source/creation/runtime match is classified PARTIAL.",
+    "fullExplorerLevelWouldRequireNewDeployment": true,
+    "newDeploymentPerformed": false
+  },
+  "disclaimers": [
+    "The explorer address is verified and exposes the exact retained source, but Blockscout labels the match PARTIAL rather than FULL because this deployment has no CBOR metadata auxdata.",
+    "A second deployment solely to change explorer match classification was not authorized or required for canonical D2/D3 evidence and was not performed.",
+    "Canonical deployment receipt, exact creation input, immutable-aware runtime bytecode and lifecycle evidence remain independent authorities."
+  ],
+  "integrity": {
+    "algorithm": "sha256",
+    "canonicalization": "xpayr-canonical-json-v1",
+    "scope": "entire_document_except_integrity",
+    "digest": "0x00f73d87a383e425f2c179d776dc7f76c3fb9b13bd0c9374d624f125593497ca"
+  }
+}
