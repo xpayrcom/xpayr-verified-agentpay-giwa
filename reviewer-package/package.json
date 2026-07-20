@@ -36,7 +36,7 @@
   },
   "devDependencies": {
     "esbuild": "0.28.1",
-    "solc": "0.8.30"
+    "solc": "0.8.36"
   },
   "overrides": {
     "tmp": "0.2.7"
