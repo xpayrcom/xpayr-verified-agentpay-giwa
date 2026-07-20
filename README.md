@@ -20,7 +20,7 @@ XPAYR Verified AgentPay is a testnet-only prototype for policy-controlled AI-age
 
 The `reviewer-package/` directory is the exact sealed reviewer snapshot. Its manifest covers every payload file by path, byte length, and SHA-256 digest. Repository-level files outside that directory are intentionally outside the sealed payload.
 
-Several sealed documents preserve their pre-publication checkpoint wording by design. They were not rewritten after the snapshot was signed and manifested. Current repository and release status is stated only in this root README and [RELEASE_NOTES.md](RELEASE_NOTES.md); GASOK form submission remains a separate applicant-controlled action.
+Several sealed documents preserve their pre-publication checkpoint wording by design. They were not rewritten after the snapshot was signed and manifested. Current repository and release status is stated only in this root README and [RELEASE_NOTES.md](RELEASE_NOTES.md). The official English GASOK application was submitted on `2026-07-20` after applicant-controlled consent and action-time authorization; submission does not imply selection, funding, partnership, or endorsement.
 
 ## Verify locally
 

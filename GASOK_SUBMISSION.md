@@ -1,6 +1,6 @@
 # GASOK English Form Package
 
-Status: technically prepared with applicant contact and team-profile inputs. Final submission remains blocked only until the applicant explicitly accepts both mandatory consent texts at action time.
+Status: **submitted** through the official English GASOK form on `2026-07-20` after applicant-controlled consent and action-time authorization. The confirmation page displayed `Your response has been submitted.`; it did not display a response or receipt identifier.
 
 The current official form accepts exactly one track. Select **Track 04. AI / WEB3**. GIWA-Native fit is expressed in the answers and deck; it is not entered as a second track.
 
@@ -16,7 +16,7 @@ The current official form accepts exactly one track. Select **Track 04. AI / WEB
 
 ### 3. Team Introduction — public link
 
-`https://github.com/xpayrcom/xpayr-verified-agentpay-giwa/blob/main/TEAM_PROFILE.md`
+`https://github.com/xpayrcom/xpayr-verified-agentpay-giwa/blob/codex/gasok-team-profile/TEAM_PROFILE.md`
 
 The public profile includes the required member name, role, nationality, relevant experience, and core strengths. See [TEAM_PROFILE.md](TEAM_PROFILE.md).
 
@@ -56,12 +56,15 @@ We seek GIWA Wallet and Dojang technical guidance, private-network access and mi
 
 AgentPay is more than an EVM network row: Dojang verification is mandatory, Flashblocks is pending UX only, and canonical GIWA receipts plus human approval determine settlement. The public package includes release and refund lifecycles, signed policy origin, separated evidence production, canonical anchors, tests, and explicit limits. We want to turn this reviewer-verifiable testnet control layer into a useful GIWA Wallet workflow.
 
-## Submission gate
+## Submission record
 
-Do not submit this form until all of the following are true:
+The completed application used:
 
-- the team email is supplied and approved for transmission;
-- the public `TEAM_PROFILE.md` is complete and approved by every named member;
-- both mandatory consent texts are reviewed and accepted by the applicant;
-- the public repository, deck, demo release, contract link, and one-pager links resolve;
-- the applicant gives explicit action-time authorization to send the form.
+- the applicant-supplied team email, transmitted only to the official form and not published here;
+- the public branch-hosted `TEAM_PROFILE.md`, approved by the named member;
+- explicit applicant acceptance of both mandatory consent texts;
+- the public repository, deck, demo release, GIWA contract, and one-pager links above;
+- exactly one selected track: `Track 04. AI / WEB3`;
+- explicit applicant authorization to submit at action time.
+
+Do not submit a duplicate application unless the applicant explicitly requests it after checking with the GASOK team.
