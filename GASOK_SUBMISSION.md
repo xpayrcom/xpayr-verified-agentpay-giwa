@@ -1,6 +1,6 @@
 # GASOK English Form Package
 
-Status: technically prepared; **not submission-ready** until the applicant supplies the team email and public team profile, reviews both mandatory consent texts, and explicitly authorizes the final form submission.
+Status: technically prepared with applicant contact and team-profile inputs. Final submission remains blocked only until the applicant explicitly accepts both mandatory consent texts at action time.
 
 The current official form accepts exactly one track. Select **Track 04. AI / WEB3**. GIWA-Native fit is expressed in the answers and deck; it is not entered as a second track.
 
@@ -12,13 +12,13 @@ The current official form accepts exactly one track. Select **Track 04. AI / WEB
 
 ### 2. Team Email
 
-`[applicant to provide]`
+`[supplied by applicant; intentionally not published in this repository]`
 
 ### 3. Team Introduction — public link
 
-`[publish TEAM_PROFILE.md after applicant review, then insert its public URL]`
+`https://github.com/xpayrcom/xpayr-verified-agentpay-giwa/blob/main/TEAM_PROFILE.md`
 
-The required profile must include member names, roles, nationalities, relevant careers or experience, and core strengths. See [TEAM_PROFILE_TEMPLATE.md](TEAM_PROFILE_TEMPLATE.md).
+The public profile includes the required member name, role, nationality, relevant experience, and core strengths. See [TEAM_PROFILE.md](TEAM_PROFILE.md).
 
 ### 4. Motivation for Application — maximum 500 characters
 

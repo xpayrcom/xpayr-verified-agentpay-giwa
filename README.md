@@ -7,6 +7,7 @@ XPAYR Verified AgentPay is a testnet-only prototype for policy-controlled AI-age
 ## Reviewer entry points
 
 - [One-page product and evidence overview](ONE_PAGER.md)
+- [Team profile](TEAM_PROFILE.md)
 - [GASOK pitch deck (PDF)](deck/xpayr-verified-agentpay-gasok-deck.pdf)
 - [GASOK English form package](GASOK_SUBMISSION.md)
 - [Reviewer package overview](reviewer-package/README.md)
