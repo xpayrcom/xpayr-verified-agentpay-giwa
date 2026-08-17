@@ -35,7 +35,7 @@
     "ethers": "6.17.0"
   },
   "devDependencies": {
-    "esbuild": "0.28.1",
+    "esbuild": "0.28.2",
     "solc": "0.8.30"
   },
   "overrides": {
